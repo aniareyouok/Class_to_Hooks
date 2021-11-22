@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+div .AAN {
+    width: 640px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+div .UIT {
+    width: 640px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafada;
+}
+
+button {
+    background-color: antiquewhite;
+    font-family: Arial, serif;
+    width: 50px;
+    height: 50px;
+    border: 2px antiquewhite solid;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px 0 lightslategrey;
+}
+
+button:hover {
+    cursor: pointer;
+}
